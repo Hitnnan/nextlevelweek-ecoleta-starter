@@ -1,0 +1,60 @@
+@media (max-width: 56.25rem) {
+	#page-home {
+		background-position: 70vw;
+	}
+
+	#page-home .content {
+		align-items: center;
+		text-align: center;
+	}
+
+	#page-home header a {
+		position: absolute;
+		bottom: 3rem;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	#page-home main {
+		align-items: center;
+	}
+
+	#page-search-results .cards {
+		grid-template-columns: 1fr;
+	}
+
+	#page-search-results .cards img {
+		height: 15.625rem;
+	}
+
+	#page-create-point .field-group {
+		flex-direction: column;
+	}
+
+	#page-create-point .field-group .field+.field {
+		margin-left: 0;
+	}
+}
+
+@media (min-width: 106.25rem) {
+	#page-home {
+		background-position: 40vw;
+	}
+}
+
+@media (max-height: 47.5rem) {
+	#page-home {
+		background-position-y: 12.5rem;
+	}
+}
+
+@media (max-width: 36rem) {
+	#page-create-point .items-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 0.5rem;
+	}
+
+	#page-create-point form button {
+		margin: 2rem 1.6rem;
+	}
+}
